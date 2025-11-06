@@ -1811,7 +1811,57 @@ section {
     height: 180px;
   }
 }
+@media (max-width: 768px) {
+  .amenity-card {
+    flex: 0 0 70%;
+    max-width: 70%;
+    padding: 25px 20px;
+    min-height: 180px;
+  }
+  
+  .amenity-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    margin: 0 auto 15px;
+  }
+  
+  .amenity-card h3 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .amenity-card p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}
 
+@media (max-width: 480px) {
+  .amenity-card {
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding: 20px 15px;
+    min-height: 160px;
+  }
+  
+  .amenity-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+    margin: 0 auto 12px;
+  }
+  
+  .amenity-card h3 {
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+  }
+  
+  .amenity-card p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+}
 @media (max-width: 1024px) {
   .nav-menu {
     gap: 2rem;
